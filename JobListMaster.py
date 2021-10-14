@@ -3,13 +3,13 @@ import os
 # Functuion that starts all of the python scritps.
 def joblistmaster():
     try:
-        os.system("C:\\Users\\shortma1.NETXWDA\\PycharmProjects\\ScrollerParser\\JobListScrollerMTP.py")
+        os.system("C:\\Users\\PycharmProjects\\ScrollerParser\\JobListScrollerMTP.py")
         print("MTP Scroller Script ran.")
-        os.system("C:\\Users\\shortma1.NETXWDA\\PycharmProjects\\ScrollerParser\\JobListScrollerParis.py")
+        os.system("C:\\Users\\PycharmProjects\\ScrollerParser\\JobListScrollerParis.py")
         print("Paris Scroller Script ran.")
-        os.system("C:\\Users\\shortma1.NETXWDA\\PycharmProjects\\ScrollerParser\\JobListScrollerSS.py")
+        os.system("C:\\UsersPycharmProjects\\ScrollerParser\\JobListScrollerSS.py")
         print("SS Scroller Script ran.")
-        os.system("C:\\Users\\shortma1.NETXWDA\\PycharmProjects\\ScrollerParser\\JobListScrollerTXK.py")
+        os.system("C:\\Users\\PycharmProjects\\ScrollerParser\\JobListScrollerTXK.py")
         print("TXK Scroller Script ran.")
     except:
         print("An error occured creating Job Listing Page!")
